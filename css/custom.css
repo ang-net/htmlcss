@@ -1,0 +1,120 @@
+
+.collapsiveMenu {
+    padding: 15px;
+    display: inline-block;
+}
+.collapsiveMenu i{
+	font-size: 18px;
+	cursor: pointer;
+}
+.collapsiveMenu i:hover{
+	color: #999;
+}
+.searchBox{
+	border-radius:50px;
+	display: inline-block;
+	width: 243px;
+	border: 1px solid #ddd;
+	margin-top: 10px;
+}
+.searchBox input, .searchBox button{
+	border: none;
+	border-radius:50px;
+}
+.searchBox  .form-control, .searchBox .btn-default{
+background: transparent;		
+}
+ .searchBox  .navbar-form{
+ 	margin:0;
+ 	padding:0  
+ }
+  .searchBox  .form-control {
+    border-color: transparent;
+    outline: 0;
+    -webkit-box-shadow: none ;
+     box-shadow:none;
+}
+ .searchBox  .form-control:focus,.searchBox .btn-default:focus {
+    border-color: transparent;
+    outline: 0;
+    -webkit-box-shadow: none ;
+     box-shadow:none;
+}
+.center-title{
+	display: inline-block;;
+	float: right;
+	padding-top: 10px;
+}
+.center-title span{
+	display: block;
+}
+.name{
+	color: #ff6600;
+}
+
+.profieDetil{
+	display: inline-block;
+	float: right;	
+	padding:5px;	
+	position: relative; 
+
+}
+.profieDetil img{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 2px solid #ddd;	
+}
+.dropdown-menu.right{
+	left: auto;right: 0;
+}
+@media (min-width: 768px){
+.sidebar {
+   
+    margin-top: 103px;
+}
+}
+.bg-grey-box div{
+	background: #ddd;
+	min-height: 100px;
+	margin-bottom: 10px;
+	position: relative;	
+
+}
+.bg-grey-box i{
+	    position: absolute;
+    font-size: 39px;
+    right: 31px;
+    top: 10px;
+}
+.bg-grey-box  span{
+	position: absolute;
+	bottom: 5px;
+	width: 100%;
+	left:10px;
+}
+.notification{
+	float: right;
+	padding-top: 15px;
+	
+}
+.notification a{
+	position: relative;
+	display: inline-block;
+	margin-right: 20px; 
+}
+.notification i{
+	font-size: 18px;		
+}
+.notification .counter{
+	width: 20px;
+	height: 20px;
+	border-radius:50%;
+	background: red;
+	float: right;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: -6px;
+    right: -12px;
+}
